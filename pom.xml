@@ -89,10 +89,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
 			</plugin>
-
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.7</version>
 				<executions>
 					<execution>
 						<goals>
@@ -102,9 +102,6 @@
 					<execution>
 						<id>report</id>
 						<phase>prepare-package</phase>
-<!--						<goals>-->
-<!--							<goal>report</goal>-->
-<!--						</goals>-->
 					</execution>
 					<execution>
 						<id>verify</id>
@@ -118,5 +115,4 @@
 
 		</plugins>
 	</build>
-
 </project>
